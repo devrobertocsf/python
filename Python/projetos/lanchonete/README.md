@@ -1,26 +1,31 @@
-# Simulador de Lanchonete 🍔
+ 🍔 Simulador de Restaurante / Lanchonete
 
-Projeto simples feito em Python que simula o atendimento de uma lanchonete.
+Este é um projeto simples de terminal para simular o atendimento em uma lanchonete. Criado em Python, o sistema possui um cardápio com produtos e permite que o cliente faça pedidos, visualize o total e finalize a compra.
 
----
-
-### 📌 Status do Projeto
-🚧 Em desenvolvimento
+> ⚠️ **Projeto em construção!** Algumas funcionalidades ainda serão implementadas nas próximas versões.
 
 ---
 
-### ✅ Funcionalidades atuais
-- Exibe um cardápio com produtos
-- Permite o cliente escolher itens
-- Calcula o valor total do pedido
+## ✅ Funcionalidades já implementadas
+
+- Exibição do cardápio com preços
+- Adicionar itens ao pedido
+- Remover o último item adicionado (caso o cliente erre)
+- Calcular e mostrar o valor total do pedido
+- Finalizar o pedido com mensagem e lista de itens
 
 ---
 
-### 🔧 Melhorias planejadas
-- Adicionar tratamento de erros (inputs inválidos)
-- Organizar código em funções
-- Permitir remover itens do pedido
-- Salvar pedidos em arquivo `.txt`
+## 🧩 Funcionalidades em desenvolvimento
+
+- [ ] Escolher quantidade de cada item no pedido  
+- [ ] Mostrar resumo completo do pedido (quantidade × preço = subtotal por item)  
+- [ ] Simular pagamento (PIX, cartão, dinheiro)  
+- [ ] Aplicar descontos no pagamento via PIX  
+- [ ] Interface com menu interativo no terminal  
+- [ ] Registro de todos os pedidos feitos no dia  
+- [ ] Fechamento de caixa ao final do dia  
+- [ ] Personalizar mensagem final com o nome do cliente
 
 ---
 
